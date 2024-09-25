@@ -1,0 +1,85 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+
+    width: 100%;
+    padding: 0px 0px 30px;
+    max-width: 20rem;
+    min-width: 15rem;
+
+    background-color:white;
+    border-radius: 15px;
+
+    div{
+
+        display: grid;
+        align-items: center;
+        gap: 5px;
+
+        figure{ 
+
+            border-radius: 10%;
+            img{
+    
+                width: 100%;
+                border-radius: 15px;
+                border-bottom-right-radius: initial;
+                border-bottom-left-radius: initial;
+            }
+            
+    
+        }
+    
+        h2{
+            text-align: center;
+            color:rgb(15, 8, 116);
+            
+        }
+    
+        p{
+            text-align: center;
+            color:rgb(17, 17, 17);
+    
+        }
+    
+        article{
+    
+            display: flex;
+            align-items: start;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: stretch;
+            justify-content: space-around;
+            align-items: center;
+            
+            background-color:rgb(236, 240, 250);
+            margin-bottom: 40px;
+
+            
+            img{
+                align-items: center;
+            }
+
+            a{
+                display: inline-flex;
+                align-items: end;
+            }
+            
+        }
+    
+        .containerBtn{
+            display: contents;
+            gap: 25px; 
+        
+        
+        
+    }
+    }
+
+
+
+}
